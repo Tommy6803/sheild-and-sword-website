@@ -1,0 +1,257 @@
+.fest-wrap {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 320px;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.zvezda {
+  display: block;
+  margin: auto;
+}
+
+.zvezda-mobil {
+  display: block;
+  margin: auto;
+}
+
+.fest-title {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.photo-1 {
+  display: block;
+  margin: auto;
+}
+
+.photo-2 {
+  display: block;
+  margin: auto;
+}
+
+.photo-title {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.over-text {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .zvezda {
+    display: none;
+  }
+
+  .fest-title {
+    font-size: 1rem;
+  }
+
+  .photo-1 {
+    display: none;
+  }
+
+  .photo-title {
+    font-size: 1rem;
+  }
+
+  .over-text {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 375px) and (max-width: 390px) {
+  .zvezda {
+    display: none;
+  }
+
+  .fest-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .photo-1 {
+    display: none;
+  }
+
+  .photo-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .over-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+@media (min-width: 390px) and (max-width: 425px) {
+  .zvezda {
+    display: none;
+  }
+
+  .fest-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .photo-1 {
+    display: none;
+  }
+
+  .photo-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .over-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .zvezda {
+    display: none;
+  }
+
+  .fest-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .photo-1 {
+    display: none;
+  }
+
+  .photo-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .over-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .zvezda {
+    width: 750px;
+    height: 500px;
+  }
+
+  .zvezda-mobil {
+    display: none;
+  }
+
+  .fest-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .photo-1 {
+    width: 750px;
+    height: 500px;
+  }
+
+  .photo-2 {
+    display: none;
+  }
+
+  .photo-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .over-text {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .zvezda {
+    width: 1000px;
+    height: 700px;
+  }
+
+  .zvezda-mobil {
+    display: none;
+  }
+
+  .fest-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .photo-1 {
+    width: 1000px;
+    height: 700px;
+  }
+
+  .photo-2 {
+    display: none;
+  }
+
+  .photo-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .over-text {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .zvezda-mobil {
+    display: none;
+  }
+
+  .fest-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .photo-2 {
+    display: none;
+  }
+
+  .photo-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .over-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .zvezda-mobil {
+    display: none;
+  }
+
+  .fest-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .photo-2 {
+    display: none;
+  }
+
+  .photo-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .over-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+}/*# sourceMappingURL=great.css.map */

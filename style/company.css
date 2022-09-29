@@ -1,0 +1,140 @@
+.company-title {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 320px;
+}
+
+.company-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: grey;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.company-text {
+  max-width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 20px;
+  color: white;
+  margin-left: 20px;
+  word-break: break-word;
+}
+
+.company-text-min {
+  max-width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 25px;
+  color: white;
+  margin-left: 20px;
+  word-wrap: break-word;
+}
+
+.license {
+  max-width: 900px;
+  max-height: 500px;
+}
+
+.license-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  margin-left: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .company-text {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .company-text-min {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .license {
+    max-width: 300px;
+    max-height: 180px;
+  }
+}
+@media (min-width: 375px) and (max-width: 390px) {
+  .company-text {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .company-text-min {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .license {
+    align-self: center;
+    max-width: 350px;
+    max-height: 230px;
+  }
+}
+@media (min-width: 390px) and (max-width: 425px) {
+  .company-text {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .company-text-min {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .license {
+    align-self: center;
+    max-width: 370px;
+    max-height: 250px;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .company-text {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .company-text-min {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .license {
+    max-width: 400px;
+    max-height: 280px;
+    align-self: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .company-text {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .company-text-min {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .license {
+    max-width: 745px;
+    max-height: 500px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .license {
+    max-width: 900px;
+    max-height: 500px;
+  }
+}/*# sourceMappingURL=company.css.map */

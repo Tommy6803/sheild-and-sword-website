@@ -1,0 +1,18 @@
+@import url(../style/header.css); //шапка
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); //шрифт
+@import url(../style/header-slide.css); //стили для слайда
+@import url(../style/service.css); //стили для наши услуги
+@import url(../style/advantage.css); //стили для наши приемущества
+@import url(../style/footer.css); //подвал
+@import url(../style/company.css); //стили для О компании
+@import url(../style/person-hunter-slide.css); //стили для перехода на страницу с картинками
+@import url(../style/contacts.css); //стили для контактов
+@import url(../style/burger.css); //бургер меню
+@import url(../style/great.css); //мероприятия
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}

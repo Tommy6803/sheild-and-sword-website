@@ -1,0 +1,207 @@
+.footer-wrap {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 320px;
+    background-color: black;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    margin-left: 60px;
+}
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact-title {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 50px;
+}
+
+.contact-phone a {
+    font-size: 1.5rem;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+
+
+.phone-span {
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contact-mail {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer-logo {
+    width: 100%;
+    max-width: 280px;
+    max-height: 400px;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress-text {
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+}
+
+.none {
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:375px) {
+    .contact-title {
+        font-size: 1rem;
+    }
+
+    .contact-phone {
+        font-size: 1rem;
+    }
+
+    .contact-mail {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo {
+        max-width: 120px;
+        max-height: 240px;
+    }
+
+    .adress-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width:375px) and (max-width:390px) {
+    .contact-title {
+        font-size: 1rem;
+    }
+
+    .contact-phone {
+        font-size: 1rem;
+    }
+
+    .contact-mail {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo {
+        max-width: 140px;
+        max-height: 270px;
+    }
+
+    .adress-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+}
+
+@media(min-width:425px) and (max-width:768px) {
+    .contact-title {
+        font-size: 1rem;
+    }
+
+    .contact-phone {
+        font-size: 1rem;
+    }
+
+    .contact-mail {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo {
+        max-width: 160px;
+        max-height: 290px;
+    }
+
+    .adress-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .footer-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-title {
+        font-size: 1rem;
+    }
+
+    .contact-phone {
+        font-size: 1rem;
+    }
+
+    .contact-mail {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo {
+        max-width: 180px;
+        max-height: 310px;
+    }
+
+    .adress-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1280px) {
+    .footer-block {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-title {
+        font-size: 1rem;
+    }
+
+    .contact-phone {
+        font-size: 1rem;
+    }
+
+    .contact-mail {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo {
+        max-width: 220px;
+        max-height: 350px;
+    }
+
+    .adress-text {
+        font-size: 1rem;
+    }
+}

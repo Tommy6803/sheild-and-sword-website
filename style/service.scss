@@ -1,0 +1,169 @@
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 320px;
+    background-color: grey;
+
+}
+
+.service-title {
+    font-size: 5.5rem;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.service-wrap {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    max-width: 100%;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 60px -10px #000000;
+    cursor: pointer;
+    transform: perspective(650px) scale3d(1, 1, 1);
+    transition: all 1s cubic-bezier(0.03, 0.98, 0.52, 0.99);
+    outline: none;
+
+}
+
+
+.svg-fill {
+    width: 10vw;
+    height: 10vh;
+    fill: white;
+
+}
+
+.svg-fill:hover {
+    fill: #ff0000;
+    transition: opacity 1s;
+}
+
+.service-item:hover {
+    box-shadow: 0 8px 65px -5px #ff0000;
+    color: #ff0202;
+}
+
+.service-text {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px;
+    color: white;
+}
+
+.service-text-item {
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 20px;
+}
+
+@media(min-width:320px) and (max-width:375px) {
+    .service-title {
+        font-size: 2rem;
+    }
+
+    .service-item {
+        width: 270px;
+        height: 250px;
+    }
+
+    .service-text {
+        font-size: 1rem;
+    }
+
+    .service-text-item {
+        font-size: 0.7rem;
+    }
+}
+
+@media(min-width:375px) and (max-width:390px) {
+    .service-title {
+        font-size: 2rem;
+    }
+
+    .service-item {
+        width: 360px;
+        height: 250px;
+    }
+
+    .service-text {
+        font-size: 1rem;
+    }
+
+    .service-text-item {
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:390px) and (max-width:425px) {
+    .service-title {
+        font-size: 2.5rem;
+    }
+
+    .service-item {
+        width: 380px;
+        height: 250px;
+    }
+
+    .service-text {
+        font-size: 1rem;
+    }
+
+    .service-text-item {
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:425px) and (max-width:768px) {
+    .service-title {
+        font-size: 2.5rem;
+    }
+
+    .service-item {
+        width: 400px;
+        height: 270px;
+    }
+
+    .service-text {
+        font-size: 1.5rem;
+    }
+
+    .service-text-item {
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .service-title {
+        font-size: 2.8rem;
+    }
+
+    .service-item {
+        width: 600px;
+        height: 400px;
+    }
+
+    .service-text {
+        font-size: 1.7rem;
+    }
+
+    .service-text-item {
+        font-size: 1.3rem;
+    }
+}
